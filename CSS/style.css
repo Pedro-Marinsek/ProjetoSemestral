@@ -1,0 +1,1065 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #459441;
+}
+
+@font-face {
+    font-family: 'Dry Brush';
+    src: url(../FONT/Dry\ Brush.ttf);
+}
+
+.container {
+    width: 100%;
+    height: 3500px;
+}
+
+.section {
+    width: 100%;
+    height: 800px;
+}
+
+/* MENU */
+#menu-align {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    z-index: 100;
+    margin-top: 15px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90.0vw;
+    border-radius: 50px;
+    height: 10vh;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.407);
+}
+
+.menu img {
+    height: 75px;
+    width: auto;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 115px;
+    height: 57px;
+    list-style-type: none;
+    margin-left: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    transition: all 0.3s;
+}
+
+.suporteconta {
+    margin-left: auto;
+}
+
+.menu li:hover {
+    background-color: deeppink;
+    border-radius: 50px;
+    transform: scale(1.1);
+}
+
+.suporteconta img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.suporteconta li {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Dry Brush';
+    color: black;
+}
+
+.banner1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 155px;
+    border-top: 5px solid #FFC700;
+    border-bottom: 5px solid #FFC700;
+}
+
+/* END */
+
+/* SOBRE */
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.sobre h1 {
+    color: #459441;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.sobre img {
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.sobre-content {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../IMG/banner-sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.p-sobre {
+    width: 50%;
+    height: auto;
+    padding: 40px;
+    color: white;
+    text-align: justify;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+.p-sobre a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Dry Brush';
+    color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #FFC700;
+    width: fit-content;
+    transition: all 0.3s;
+}
+
+.p-sobre a:hover {
+    transform: scale(1.1);
+}
+
+.p-sobre p {
+    text-indent: 50px;
+    background-color: #459441;
+    padding: 10px;
+}
+
+#p1 {
+    border-left: 3px solid #FFC700;
+    border-right: 3px solid #FFC700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#p2 {
+    border-left: 3px solid #FFC700;
+    border-right: 3px solid #FFC700;
+    border-radius: 0;
+}
+
+#p3 {
+    border-left: 3px solid #FFC700;
+    border-right: 3px solid #FFC700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* END */
+
+/* CURSOS */
+
+.titulo-planos {
+    margin-top: 70px;
+    font-family: 'Dry Brush';
+    color: #FFC700;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.selecionar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.selecionar:hover {
+    transform: scale(1.1);
+}
+
+.selecionar h1 {
+    font-family: 'Dry Brush';
+    color: #FFC700;
+}
+
+.selecionar p {
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.453);
+    padding: 5px;
+    font-family: 'Segoe UI';
+    margin-bottom: 10px;
+}
+
+.selecionar ul {
+    justify-content: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.selecionar li {
+    font-family: 'Segoe UI';
+    font-size: 17px;
+}
+
+.selecionar li::before {
+    content: '✔ ';
+    color: #459441;
+}
+
+.selecionar h3 {
+    margin-top: auto;
+    font-family: 'Segoe UI';
+    color: white;
+    background-color: #459441;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.selecionar a {
+    text-decoration: none;
+    font-family: 'Dry Brush';
+    color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #FFC700;
+    width: fit-content;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+.selecionar a:hover {
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+/* END */
+
+/*INFORMAÇÕES ADICIONAIS*/
+.info-alunos {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-box {
+    background-image: linear-gradient(to right, #097965, #00ff77);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 1s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+.info-box h1 {
+    margin-bottom: auto;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.info-box p {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: large;
+}
+
+#info-box2 {
+    background-image: linear-gradient(to right, #c8d828 35%, #ffa600 100%);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+#info-box3 {
+    background-image: linear-gradient(39deg, rgb(134, 43, 155) 35%, rgb(93, 30, 160) 61%, rgb(44, 84, 196) 100%);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+/*END*/
+
+/*CADASTRO NO MAILING*/
+.mailing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.form-mailing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 10px;
+    width: 900px;
+    height: 350px;
+    background-color: #347230;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.407);
+}
+
+.form-mailing h1 {
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    color: white;
+}
+
+.form-mailing p {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form input {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.577);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    border: none;
+}
+
+.form label {
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 15px;
+}
+
+.form button {
+    font-family: 'Dry Brush';
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 45px;
+    background-color: #FFC700;
+    color: white;
+    transition: all 0.3s;
+    border: none;
+}
+
+.form button:hover {
+    background-color: #ffa600;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.form a {
+    text-decoration: none;
+    color: white;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+#last-section {
+    border-bottom: 3px solid white;
+}
+
+/*END*/
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 300px;
+}
+
+.container-footer-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: fit-content;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-medias img {
+    width: 70px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#spacing {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-medias img:hover {
+    background-color: #347230;
+    border-radius: 50px;
+}
+
+.links {
+    padding: 15px;
+    padding-left: 30px;
+    width: 640px;
+    border-right: 3px solid white;
+}
+
+.links h2 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 30px;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links a {
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.logo-acaua-footer {
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-acaua-footer img {
+    width: auto;
+    height: 150px;
+}
+
+.endereco {
+    width: 640px;
+    padding: 15px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border-left: 3px solid white;
+}
+
+.endereco h2 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 30px;
+}
+
+.endereco li {
+    list-style-type: none;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 100%;
+        height: 2700px;
+    }
+
+    .section {
+        width: 100%;
+        height: 600px;
+    }
+
+    /* MENU */
+    .menu {
+        height: 70px;
+        margin-top: 10px;
+    }
+
+    .menu ul {
+        height: 70px;
+    }
+
+    .menu img {
+        height: 55px;
+        width: auto;
+        margin-right: 15px;
+        margin-top: 0;
+    }
+
+    .suporteconta img {
+        height: 35px;
+        width: auto;
+    }
+
+    /* END */
+
+    /* MENU BANNER */
+    .banner1 img {
+        margin-top: 95px;
+        height: auto;
+    }
+
+    /* END */
+
+    /* SOBRE */
+    .sobre h1 {
+        font-size: 20px;
+    }
+
+    .sobre-content {
+        height: 500px;
+    }
+
+    .p-sobre {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .p-sobre a {
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    /* END */
+
+    /* CURSOS */
+    .titulo-planos {
+        margin-top: 50px;
+    }
+
+    .titulo-planos h1 {
+        font-size: 25px;
+    }
+
+    .planos {
+        height: 450px;
+        justify-content: space-around;
+
+    }
+
+    .selecionar {
+        height: 350px;
+        margin: 0;
+        width: 350px;
+    }
+
+    .selecionar h1 {
+        font-size: 20px;
+    }
+
+    .selecionar h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .selecionar p {
+        font-size: 13px;
+    }
+
+    .selecionar li {
+        font-size: 13px
+    }
+
+    .selecionar a {
+        margin-top: 15px;
+    }
+
+    /* END */
+
+    /* INFORMAÇÕES ADICIONAIS */
+    .info-box {
+        width: 350px;
+        height: 250px;
+    }
+
+    .info-box h1 {
+        font-size: 60px;
+    }
+
+    /* END */
+
+    /* MAILING */
+    .form-mailing {
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .form-mailing h1 {
+        font-size: 50px;
+    }
+
+    .form-mailing p {
+        font-size: 20px;
+    }
+
+    .form {
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    .form input {
+        padding: 10px;
+    }
+
+    .form button {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* END */
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* MENU */
+    .banner1 img {
+        height: auto;
+        margin-top: 120px;
+    }
+
+    /* END */
+
+    /* SOBRE */
+    .p-sobre {
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    /* END */
+
+    /* CURSOS */
+    .selecionar {
+        width: 300px;
+    }
+
+    .selecionar a {
+        font-size: 13px;
+    }
+
+    /* END */
+
+    /* INFORMAÇÕES ADICIONAIS */
+    .info-box {
+        width: 300px;
+    }
+
+    /* END */
+
+    /* FOOTER */
+    footer {
+        height: 300px;
+    }
+
+    .social-medias img {
+        width: 50px;
+        height: auto;
+    }
+
+    /* END */
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        height: 2050px;
+    }
+
+    .section {
+        height: 450px;
+    }
+
+    /* MENU */
+    .banner1 img {
+        margin-top: 95px;
+        height: auto;
+    }
+
+    /* END*/
+
+    /* SOBRE */
+    .sobre {
+        height: 70px;
+    }
+
+    .sobre img {
+        width: 45px;
+        height: auto;
+    }
+
+    .sobre h1 {
+        font-size: 18px;
+    }
+
+    .sobre-content {
+        height: 375px;
+    }
+
+    .p-sobre {
+        font-size: 11.2px;
+        padding-top: 15px;
+    }
+
+    /* END */
+
+    /* CURSOS */
+    .titulo-planos {
+        margin-top: 25px;
+    }
+
+    .titulo-planos h1 {
+        font-size: 18px;
+    }
+
+    .planos {
+        height: 350px;
+        justify-content: space-around;
+
+    }
+
+    .selecionar {
+        height: 300px;
+        margin: 0;
+        width: 250px;
+    }
+
+    .selecionar h1 {
+        font-size: 18px;
+    }
+
+    .selecionar h3 {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .selecionar p {
+        font-size: 11px;
+    }
+
+    .selecionar li {
+        font-size: 11px
+    }
+
+    .selecionar a {
+        margin-top: 13px;
+        padding: 6px;
+    }
+
+    /* END */
+
+    /* INFORMAÇÕES ADICIONAIS */
+    .info-box {
+        width: 250px;
+        height: 200px;
+    }
+
+    .info-box h1 {
+        font-size: 40px;
+    }
+
+    .info-box p {
+        font-size: small;
+    }
+
+    /* END */
+
+    /* MAILING */
+    .form-mailing {
+        width: 700px;
+        margin-top: 18px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .form-mailing h1 {
+        font-size: 30px;
+    }
+
+    .form-mailing p {
+        font-size: 15px;
+    }
+
+    .form {
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    .form input {
+        padding: 10px;
+    }
+
+    .form button {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* END */
+
+    /* FOOTER */
+    footer {
+        height: 250px;
+    }
+
+    .social-medias {
+        margin-top: 5px;
+    }
+
+    .links a {
+        font-size: medium;
+    }
+
+    .links h2 {
+        font-size: 25px;
+    }
+
+    .endereco h2 {
+        font-size: 25px;
+    }
+
+    .endereco p {
+        font-size: medium;
+    }
+
+    .logo-acaua-footer img {
+        height: 125px;
+    }
+
+    /* END */
+}
+
+    @media only screen and (max-width: 768px) {
+        .container {
+            height: 2605px;
+        }
+
+        .section {
+            height: 400px;
+        }
+
+        /* MENU */
+        .menu {
+            width: 75%;
+        }
+
+        .menu img {
+            height: 45px;
+            width: auto;
+            margin-right: 0;
+            margin-top: 0;
+        }
+
+        .suporteconta {
+            display: none;
+            visibility: hidden;
+        }
+
+        /* END */
+
+        /* SOBRE */
+
+        .sobre-content {
+            height: 325px;
+        }
+
+        .p-sobre {
+            font-size: 7.7px;
+            padding-top: 15px;
+        }
+
+        .p-sobre p {
+            text-indent: 30px;
+        }
+
+        /* END */
+
+        /* CURSOS */
+
+        .planos {
+            flex-direction: column;
+            padding: 0;
+        }
+
+        #planos-height {
+            height: 1130px;
+        }
+
+        #planos-height-2 {
+            height: 1000px;
+            margin: 0;
+        }
+
+        /* END */
+
+        /* INFORMAÇÕES ADICIONAIS */
+        .info-box {
+            width: 180px;
+            height: 180px;
+        }
+
+        .info-box p {
+            margin-top: 10px;
+        }
+
+        /* END */
+
+        /* MAILING */
+        .form-mailing {
+            width: 500px;
+            margin-top: 18px;
+            height: 185px;
+            padding: 20px;
+            padding-top: 0;
+        }
+
+        .form-mailing h1 {
+            font-size: 25px;
+            margin-top: 0;
+        }
+
+        .form-mailing p {
+            font-size: 13px;
+        }
+
+        .form {
+            height: 40px;
+            margin-top: 20px;
+        }
+
+        .form input {
+            padding: 10px;
+            width: 130px;
+        }
+
+        .form button {
+            height: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #checkbox {
+            width: 25px;
+        }
+
+        .form label {
+            font-size: smaller;
+            padding: 0;
+            margin-left: 0;
+        }
+
+        /* END */
+
+        /* FOOTER */
+        footer {
+            height: 250px;
+        }
+
+        .social-medias {
+            margin-top: 5px;
+        }
+
+        .social-medias img {
+            width: 40px;
+            height: auto;
+        }
+
+        .links a {
+            font-size: 15px;
+        }
+
+        .links h2 {
+            font-size: 15px;
+        }
+
+        .endereco h2 {
+            font-size: 15px;
+        }
+
+        .endereco li {
+            font-size: 14px;
+        }
+
+        .logo-acaua-footer img {
+            height: 105px;
+        }
+
+        /* END */
+    }
